@@ -20,6 +20,13 @@ usbd-serial = "0.1.1"
 embedded-time = "0.12.1"
 bme280-multibus = "0.2.1"
 embedded-hal = "0.2"
+bme280 = "0.4.4"
+embedded-graphics = "0.7.1"
+sh1106 = "0.4.0"
+arrform = "0.1.1"
+ds18b20 = "0.1.1"
+one-wire-bus = "0.1.1"
+
 # ftdi-embedded-hal = { version = "0.11", features = ["libftd2xx"] }
 # libftd2xx = "0.32"
 
