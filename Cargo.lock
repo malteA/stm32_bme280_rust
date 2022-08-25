@@ -240,7 +240,7 @@ dependencies = [
  "byteorder",
  "embedded-graphics-core",
  "float-cmp",
- "micromath",
+ "micromath 1.1.1",
 ]
 
 [[package]]
@@ -463,6 +463,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bc4010833aea396656c2f91ee704d51a6f1329ec2ab56ffd00bfd56f7481ea94"
 
 [[package]]
+name = "micromath"
+version = "2.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "39617bc909d64b068dcffd0e3e31679195b5576d0c83fadc52690268cc2b2b55"
+
+[[package]]
 name = "nb"
 version = "0.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -575,6 +581,16 @@ version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a9761e13074f8f916702c1a1dbe0eda3fb8478704db00493f5a5c27ed5847710"
 dependencies = [
+ "embedded-hal 0.2.7",
+]
+
+[[package]]
+name = "onewire"
+version = "0.3.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "73be67dc9e140c0963625510b4a09c07edf2c07c9dab53134d863e4d302c9ea1"
+dependencies = [
+ "byteorder",
  "embedded-hal 0.2.7",
 ]
 
@@ -788,7 +804,8 @@ dependencies = [
  "embedded-graphics",
  "embedded-hal 0.2.7",
  "embedded-time",
- "one-wire-bus",
+ "micromath 2.0.0",
+ "onewire",
  "panic-rtt-target",
  "rtt-target",
  "sh1106",

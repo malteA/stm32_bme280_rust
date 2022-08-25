@@ -25,7 +25,8 @@ embedded-graphics = "0.7.1"
 sh1106 = "0.4.0"
 arrform = "0.1.1"
 ds18b20 = "0.1.1"
-one-wire-bus = "0.1.1"
+onewire = "0.3.13"
+micromath = "2.0.0"
 
 # ftdi-embedded-hal = { version = "0.11", features = ["libftd2xx"] }
 # libftd2xx = "0.32"
